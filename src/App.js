@@ -1,8 +1,9 @@
-import Banner from "./Components/Banner";
-function App() {
+import IndexBanner from "./Components/Index";
+const App = () => {
+ 
   return (
-    <div className='container mx-auto'>
-      <Banner/>
+    <div>
+        <IndexBanner/>
     </div>
   );
 }
